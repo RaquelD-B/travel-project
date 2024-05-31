@@ -74,18 +74,66 @@ main h2 {
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
-  text-align: left;
+
   color: #272044;
+}
+
+main h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+main h5 {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 19.5px;
 }
 main p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  opacity: 70%;
 }
 main .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 18px;
+}
+.secondary-section {
+  background-color: #f8f8f8;
+}
+.secondary-section-header {
+  margin: 30px auto;
+}
+.secondary-section h2,
+.secondary-section h3 {
+  text-align: center;
+}
+.secondary-section .grid {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+  background-color: white;
+}
+.card-main-section {
+  padding: 0 20px;
+}
+.card-footer {
+  margin: 0 10px 10px;
+}
+.card a {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 3px;
+  background: #462cb2;
+  color: white;
+  display: block;
+  padding: 16px 32px;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 footer {
