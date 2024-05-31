@@ -115,8 +115,15 @@ main .grid {
 .card {
   background-color: white;
 }
+
 .card-main-section {
   padding: 0 20px;
+}
+.card-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 20%;
 }
 .card-footer {
   margin: 0 10px 10px;
@@ -124,7 +131,7 @@ main .grid {
 .card a {
   font-size: 14px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.5;
   letter-spacing: 3px;
   background: #462cb2;
   color: white;
@@ -209,12 +216,36 @@ footer span {
   main h2 {
     font-size: 20px;
   }
+  main h4 {
+    font-size: 12px;
+  }
+  p {
+    line-height: 1;
+  }
+  main h5 {
+    font-size: 7px;
+  }
   main p {
     font-size: 8px;
   }
   main .grid {
     grid-template-columns: 1fr;
     grid-gap: 18px;
+  }
+  .secondary-section .grid {
+    grid-template-columns: 1fr;
+  }
+  .card-img {
+    max-height: none;
+    padding-top: 5px;
+  }
+  .card a {
+    font-size: 7px;
+    padding: 8px 16px;
+    max-width: 40%;
+  }
+  .card-footer {
+    margin: 0 5px 5px;
   }
   footer {
     padding: 0 !important;
