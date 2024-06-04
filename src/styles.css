@@ -109,7 +109,8 @@ main .grid-2-columns {
 .secondary-section h3 {
   text-align: center;
 }
-.secondary-section .grid-3-columns {
+.secondary-section .grid-3-columns,
+.gallery .grid-3-columns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 18px;
@@ -153,7 +154,18 @@ main .grid-2-columns {
   text-decoration: none;
   text-transform: uppercase;
 }
+.gallery h2 {
+  margin-bottom: 30px;
+}
+.gallery h2,
+.gallery h3 {
+  text-align: center;
+}
 
+.gallery .grid-3-columns {
+  margin-bottom: 18px;
+  width: 100%;
+}
 footer {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.9),
@@ -243,7 +255,8 @@ footer span {
     grid-template-columns: 1fr;
     grid-gap: 18px;
   }
-  .secondary-section .grid-3-columns {
+  .secondary-section .grid-3-columns,
+  .gallery .grid-3-columns {
     grid-template-columns: 1fr;
   }
   .card .grid {
